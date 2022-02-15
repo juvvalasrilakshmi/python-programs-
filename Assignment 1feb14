@@ -1,0 +1,10 @@
+ n=int(input('enter a value:'))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print('the of digits in the number are:',count)
+Output:
+enter a value:9658976  
+the number of digits in the number are:7                                                                                                                               the of digits in the number are: 7
+
